@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!--First part of Header section-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <div class="container-fluid" id="logo">
+       
+        <img src="../images/logo.png" alt="" height="50">
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex m-auto">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search your brand & products"
+              aria-label="Search"
+            />
+            <button class="btn btn-warning" type="submit">
+              Search
+            </button>
+          </form>
+          <div class="loginbtn">
+            <a href="Login.html">
+            <button class="btn btn-warning">login</button>
+            </a>
+            <a href="Cart.html">
+              <i class="fa-solid fa-cart-shopping fa-flip fa-2xl"></i>
+            </a>
+        </div>
+      </div>
+    </nav>
+    <!--2nd part of header section-->
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="allproducts.html">All products</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Women
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li>
+            <a class="dropdown-item" href="allproductswomen.html"
+              >All products</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="dresses_women.html">Dresses</a>
+          </li>
+          <li><a class="dropdown-item" href="pantswomen.html">Pants</a></li>
+          <li><a class="dropdown-item" href="skirtswomen.html">Skirts</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Men
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li>
+            <a class="dropdown-item" href="allproducts_men.html"
+              >All products</a
+            >
+          </li>
+          <li><a class="dropdown-item" href="shirtsmen.html">Shirts</a></li>
+          <li><a class="dropdown-item" href="pantsmen.html">Pants</a></li>
+          <li><a class="dropdown-item" href="hoodies_men.html">Hoodies</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="kids.html">Kids</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contact.html">Contact</a>
+      </li>
+    </ul>
+  </body>
+</html>
