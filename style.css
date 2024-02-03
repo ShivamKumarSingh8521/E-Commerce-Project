@@ -1,0 +1,274 @@
+body {
+      padding: 0%;
+      margin: 0px;
+      
+}
+
+.navbar-brand {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-emphasis-style: initial;
+      background-color: #727373;
+      box-shadow: 0 5px 15px rgba(0, 0, 0.06);
+      border-radius: 10px;
+      color: white;
+      padding: 10px 20px;
+      z-index: 999;
+      position: sticky;
+      top: 0;
+      left: 0;
+}
+
+#navbarSupportedContent form input {
+      width: 400px;
+      margin-left: 350px;
+}
+
+
+.d-flex {
+      border-radius: 60px;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      margin: 0 20%;
+}
+
+.form-control {
+      width: 50%;
+      padding: 10px;
+      border: 0;
+      border-radius: 20px;
+      outline: none;
+}
+
+.btn {
+      margin-left: -10px;
+}
+.loginbtn{
+      margin-right: 100px;
+}
+.loginbtn i{
+      margin-left: 20px;
+}
+
+
+/* Style for the text overlay */
+ .cover {
+       background-image: url('../images/banner.jpeg');
+       background-size: cover;
+       background-position: center;
+       height: 70vh;
+       color: #fff;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+ }
+ #logo img{
+      mix-blend-mode: multiply;
+      margin-left: 40px;
+ }
+
+ .logo {
+       width: 300px;
+       
+       height: 200px;
+       margin: 0 auto 20px;
+      
+ }
+ .container img{
+      mix-blend-mode: multiply;
+ }
+ .container strong{
+      color:  black;
+      font-size: 2rem;
+      font-style: italic;
+ }
+
+
+
+
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+      align-items: center;
+     
+}
+
+#card {
+       size-adjust: 10px;
+       background-color: white;    
+       background-color: aqua;
+       border: none;
+       border-radius: 40px;
+       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+      height: 580px;
+ }
+
+.card button{
+      align-items: center;
+      background-color: yellow;
+}
+ .card img {
+       height: 370px;
+      mix-blend-mode: normal;
+       object-fit: cover;
+       border-radius: 40px;
+ }
+
+ .card-title {
+       font-size: 18px;
+       margin-bottom: 10px;
+       text-align: center;
+ }
+
+ .card-text {
+       font-size: 14px;
+      
+      text-align: center;
+ }
+
+.row{
+      padding-top: 20px;
+}
+.col{
+      margin-top: 20px;
+}
+
+  #contact-form {
+        align-items: center;
+        width: 500px;
+  }
+.contact-image{
+      border-radius: 10px;
+}
+
+
+
+
+                         /* css for cart */
+
+#cart-img img {
+      border-radius: 0;
+      height: 200px;
+      margin: 10px 10px 10px 10px;
+}
+ #contact-form button {
+       margin-top: 8px;
+       margin-left: 2px;
+ }
+
+
+#item2 {
+      margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+
+     
+      h2 {
+            font-size: 24px;
+      }
+
+      #cart-img img {
+            height: 100px;
+      }
+
+      #item {
+            width: 50%;
+      }
+
+      #item2 {
+            width: 100%;
+            
+      }
+
+      #text {
+            margin-left: 20px;
+            margin-bottom: 5px;
+      }
+
+      #btn1 {
+            width: 300px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+      }
+
+      #btn1 input[type="text"] {
+            width: 10px;
+      }
+
+      #navbarSupportedContent form input {
+            width: 110px;
+            margin-left: 150px;
+      }
+
+      #contact-form{
+            width: 100%;
+      }
+      #contact-form button{
+            margin-top: 8px;
+            margin-left: 2px;
+      }
+}
+
+@media (max-width: 992px) {
+
+   
+      #item {
+            width: 100%;
+           
+      }
+
+      #item2 {
+            width: 65%;
+            
+      }
+}
+
+
+                                    /*Style for footer*/
+.footer {
+      background-color: black;
+      color: white;
+      margin-top: 25px;
+
+
+
+}
+
+.footer h4 {
+      margin-bottom: 20px;
+}
+
+.footer a {
+      color: whitesmoke;
+      text-decoration: none;
+}
+
+
+.divider {
+      border-top: 1px solid wheat;
+      margin: 20px 0;
+}
+
+
+.copyright {
+      text-align: center;
+}
+
+
+@media (max-width: 768px) {
+      .footer {
+            text-align: center;
+      }
+
+      .footer .col {
+            margin-bottom: 20px;
+      }
+}
+
